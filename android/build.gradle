@@ -55,4 +55,5 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:17.0.0'
 }
