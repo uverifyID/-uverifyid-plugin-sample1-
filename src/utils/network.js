@@ -47,7 +47,7 @@ export const validateLicense = async(token, formData) => {
                 const resBody = await response.json()
                 return resBody
             } else {
-                const resBody = await response.json()
+                // const resBody = await response.json()
                 throw 'ID Verification failed'
             }
     } catch (error) {
