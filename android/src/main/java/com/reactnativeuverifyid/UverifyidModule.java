@@ -23,9 +23,11 @@ import java.io.IOException;
 @ReactModule(name = UverifyidModule.NAME)
 public class UverifyidModule extends ReactContextBaseJavaModule {
     public static final String NAME = "Uverifyid";
+    private final ReactApplicationContext reactContext;
 
     public UverifyidModule(ReactApplicationContext reactContext) {
         super(reactContext);
+        this.reactContext = reactContext;
     }
 
     @Override
