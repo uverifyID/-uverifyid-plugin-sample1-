@@ -41,7 +41,7 @@ const [showUverify, setShowUverify] = useState(false)
 | onDismiss | function | Should to used to hide component of perform other actions
 | appKey | string | App secret key provided by uverifyID in developer console
 | onVerifyComplete | function | Returns verification ID after successful verification. Can be used to store in backend to fetch verification result later.
-| onVerifyFailure | function | Shoulbe be used to alert user that something went wrong
+| onVerifyFailure | function | Should be used to alert user that something went wrong
 
 ## Contributing
 
